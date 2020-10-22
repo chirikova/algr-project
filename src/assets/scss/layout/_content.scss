@@ -1,0 +1,18 @@
+.content {
+  background: $color-white;
+  border-radius: $radius;
+  @include container;
+  .ps {
+    height: calc(100vh - 140px);
+    @include mq-lg {
+      height: calc(100vh - 160px);
+    }
+    overflow: auto;
+    &__rail-y {
+      right: 10px;
+    }
+  }
+  article {
+    height: auto;
+  }
+}
