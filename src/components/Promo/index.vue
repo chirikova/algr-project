@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import promoImg from '@/assets/images/promo.png'
 export default {
   name: 'Promo',
 }
